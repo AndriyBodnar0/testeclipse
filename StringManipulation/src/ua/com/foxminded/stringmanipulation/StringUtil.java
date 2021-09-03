@@ -13,8 +13,8 @@ public class StringUtil {
 		Scanner sourceone = new Scanner(System.in);
 		String vyvod = sourceone.nextLine();
 
-		String[] words = vyvod.split(" ");
-
+		String[] words = vyvod.split(" "); 
+ 
 		List<String> words1 = new ArrayList<>();
 		// List<Collection> words1 =new ArrayList<>()
 		System.out.println("number of words" + " " + "-" + " " + words.length);
@@ -25,7 +25,7 @@ public class StringUtil {
 
 			char[] letters = words[i].toCharArray();
 			System.out.println(letters.length + " " + ";");
-
+  dg
 		}
 
 		// System.out.println("Collection the words");
